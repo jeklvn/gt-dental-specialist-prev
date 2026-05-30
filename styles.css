@@ -87,8 +87,13 @@
             transform: none !important;
         }
 
-        input{
-                overflow-x: hidden;
+        input[type="date"],
+        input[type="time"]{
+                width: 100%;
+                max-width: 100%;
+                box-sizing:border-box;
+                -webkit-appearance: none;
+                appearance: none;
         }
 
         /* Animation classes */
