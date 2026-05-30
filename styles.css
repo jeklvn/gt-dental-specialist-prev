@@ -147,6 +147,10 @@
             transition-delay: var(--scroll-delay, 0s);
         }
 
+        form{
+                overflow-x: hidden !important;
+        }
+
         .scroll-reveal.scroll-reveal-left {
             transform: translateX(-28px);
         }
