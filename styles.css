@@ -640,6 +640,7 @@
             font-size: clamp(2.4rem, 4vw, 3.4rem);
             color: var(--primary);
             margin-bottom: 12px;
+           opacity: 1 !important
         }
 
         .service-intro,
@@ -651,6 +652,10 @@
             color: #4a5c7b;
             line-height: 1.9;
             font-size: 1rem;
+        }
+
+        .service-intro{
+                opacity: 1 !important;
         }
 
         .service-slider {
