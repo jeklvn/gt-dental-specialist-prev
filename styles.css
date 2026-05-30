@@ -80,6 +80,13 @@
             }
         }
 
+        .services h2,
+        .services .service-intro {
+            opacity: 1 !important;
+            visibility: visible !important;
+            transform: none !important;
+        }
+
         input{
                 overflow-x: hidden;
         }
