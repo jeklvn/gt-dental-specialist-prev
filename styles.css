@@ -80,6 +80,10 @@
             }
         }
 
+        input{
+                overflow-x: hidden;
+        }
+
         /* Animation classes */
         .animate-fade-in-up {
             animation: fadeInUp 0.8s ease-out forwards;
