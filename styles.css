@@ -476,7 +476,7 @@
         .about-hero {
             min-height: 55vh;
             padding: 100px 24px 80px;
-            background: url('assets/ilupeju-branch-images/about-hero-bg.jpg') center/cover no-repeat;
+            background: url('assets/Ilupeju-branch-images/about-hero-bg.jpg') center/cover no-repeat;
         }
 
         .services-hero {
@@ -3461,11 +3461,11 @@
             text-align: center;
             position: relative;
             overflow: hidden;
-            background: url('assets/ilupeju-branch-images/branch-img4.jpg') center/cover no-repeat;
+            background: url('assets/Ilupeju-branch-images/branch-img4.jpg') center/cover no-repeat;
         }
 
         .contact-hero.hero-compact {
-            background: url('assets/ilupeju-branch-images/branch-img4.jpg') center/cover no-repeat;
+            background: url('assets/Ilupeju-branch-images/branch-img4.jpg') center/cover no-repeat;
             min-height: calc(70vh - var(--header-h));
         }
 
