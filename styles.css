@@ -3462,15 +3462,21 @@
             text-align: center;
             position: relative;
             overflow: hidden;
-            background-image: url('assets/Ilupeju-branch-images/branch-img4.jpg') center/cover no-repeat;
+            background: url('assets/Ilupeju-branch-images/branch-img4.jpg') center/cover no-repeat;
+        }
+
+        .customer-hero > *{
+                position: relative;
+                z-index: 2;
         }
 
         .customer-hero::before {
             content: '';
             position: absolute;
             inset: 0;
-            background: radial-gradient(circle at 20% 50%, rgba(33, 88, 255, 0.08) 0%, transparent 50%),
-                        radial-gradient(circle at 80% 80%, rgba(224, 33, 138, 0.06) 0%, transparent 50%);
+            background-color: rgba(0, 0, 0, 0.45);
+                backdrop-filter: blur(4px);
+                -webkit-backdrop-filter: blur(4px)
             pointer-events: none;
             z-index: 0;
         }
