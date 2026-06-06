@@ -677,6 +677,7 @@
         .services {
             padding: 80px 20px;
             background: #f7f9ff;
+            visibility: visible;
         }
 
         .services h2,
