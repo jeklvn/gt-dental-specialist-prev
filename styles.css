@@ -485,6 +485,7 @@
 
         .contact-hero {
             background: url('assets/contact-hero-bg.jpeg') center/cover no-repeat;
+             min-height: calc(70vh - var(--header-h));
         }
 
         .hero-section::before {
@@ -3462,11 +3463,6 @@
             position: relative;
             overflow: hidden;
             background: url('assets/Ilupeju-branch-images/branch-img4.jpg') center/cover no-repeat;
-        }
-
-        .contact-hero.hero-compact {
-            background: url('assets/contact-hero-bg.jpeg') center/cover no-repeat;
-            min-height: calc(70vh - var(--header-h));
         }
 
         .customer-hero::before {
